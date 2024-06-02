@@ -34,5 +34,3 @@ To run this project, you'll need the following libraries:
 You can install these libraries using pip:
 ```bash
 pip install moviepy speechrecognition googletrans==4.0.0-rc1 gtts
-
-This `README.md` file provides an overview of the project, the steps involved, and the complete Python code used. Adjust the paths and any specific details according to your setup and preferences.
