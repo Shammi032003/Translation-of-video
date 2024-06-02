@@ -1,19 +1,7 @@
 Hey There! 
 This project demonstrates how to translate the audio from an English video to Hindi and merge the translated audio back into the video. The sample video features Sudha Murty speaking in English, which is translated to Hindi.
 
-## Requirements
-
-To run this project, you'll need the following libraries:
-- `moviepy`
-- `speech_recognition`
-- `googletrans`
-- `gtts`
-
-You can install these libraries using pip:
-```bash
-pip install moviepy speechrecognition googletrans==4.0.0-rc1 gtts
-
-Usage
+## Usage
 1. Set the input video path:
    Replace the path to your input video in the script:
             input_video_path = "D:\\video translation\\video.mp4"
@@ -35,6 +23,16 @@ Usage
 7. Clean up temporary files:
    The script removes the temporary audio files created during the process.
 
+## Requirements
+
+To run this project, you'll need the following libraries:
+- `moviepy`
+- `speech_recognition`
+- `googletrans`
+- `gtts`
+
+You can install these libraries using pip:
+```bash
+pip install moviepy speechrecognition googletrans==4.0.0-rc1 gtts
+
 This `README.md` file provides an overview of the project, the steps involved, and the complete Python code used. Adjust the paths and any specific details according to your setup and preferences.
-
-
